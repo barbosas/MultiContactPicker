@@ -76,6 +76,8 @@ public class MultiContactPickerActivity extends AppCompatActivity implements Mat
         recyclerView = (FastScrollRecyclerView) findViewById(R.id.recyclerView);
 
         initialiseUI(builder);
+        
+        tvSelectAll.setText("Todos");
 
         if(getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
